@@ -10,7 +10,7 @@ variable "db_instance_type" {
 
 variable "db_storage" {
     description = "RDS db size"
-    # default     = 10
+    default     = 10
     type        = number
 }
 
