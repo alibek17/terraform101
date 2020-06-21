@@ -1,5 +1,5 @@
 module "rds" {
-    source = "../modules/rds"
+    source = "github.com/alibek17/terraform101//modules/rds?ref=v0.0.1"
     
     environment = "dev"
 }
